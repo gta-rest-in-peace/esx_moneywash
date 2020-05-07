@@ -5,5 +5,4 @@ CREATE TABLE `auto_moneywash` (
 	`deposit_date` DATETIME NOT NULL DEFAULT now(),
     `get_date` DATETIME NOT NULL,
     `notified` tinyint(1) NOT NULL DEFAULT 0,
-	PRIMARY KEY (`id`),
-);
+	PRIMARY KEY (`id`));
