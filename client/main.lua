@@ -65,7 +65,7 @@ function OpenWashingMenu()
     }, function(data, menu)
         if data.current.value == 'washing' then
             ESX.UI.Menu.Open('dialog', GetCurrentResourceName(), 'inventory_item_count_give', { 
-                title = 'quantité'
+                title = _U('quantity')
             }, function(data2, menu2)
                 local quantity = tonumber(data2.value)
                 TriggerServerEvent('esx_moneywash:sendMoney', quantity)

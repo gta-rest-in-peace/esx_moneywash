@@ -11,5 +11,6 @@ Locales ['fr'] = {
     ['washed_amount'] = 'Voici votre argent blanchi : ~b~%s$~s~',
     ['washing'] = 'Blanchir de l\'argent',
     ['getmoney'] = 'Recuperer son argent',
-    ['take'] = 'Fouiller le monsieur'
+    ['take'] = 'Fouiller le monsieur',
+    ['quantity'] = 'quantité'
 }
