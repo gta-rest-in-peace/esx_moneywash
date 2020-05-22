@@ -1,3 +1,5 @@
+USE `es_extended`;
+
 CREATE TABLE `auto_moneywash` (
 	`id` INT(11) NOT NULL AUTO_INCREMENT,
 	`identifier` VARCHAR(100) NOT NULL,
